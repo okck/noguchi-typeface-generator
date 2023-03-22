@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+h1 {
+  font-family: sans-serif;
+  color: rgb(85, 85, 85);
+  position: fixed;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: -0.05vw;
+  font-size: 1.8vh;
+  width: 100px;
+  line-height: -0.8vh;
+  top: .5vh;
+  left: .7vw;
+}
+#word {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.textInput {
+  background: black;
+  height: 10vh;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+#userWords {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  height: 65%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: rgb(114, 114, 114);
+}
+#userWords:focus {
+  background-color: rgb(230, 230, 230);
+}
+::placeholder {
+  color: rgb(230, 230, 230);
+  font-size: 20px;
+  font-weight: normal;
+}
+#submitbutton {
+  color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: rgb(49, 49, 49);
+  border: none;
+  margin: 5px;
+  font-weight: bold;
+}
+.letter {
+  height: 25vh;
+}
